@@ -10,6 +10,7 @@ function login() {
 
         if (email == user1 && password == user2) {
             window.location.href = "dashbord.html";
+              alert('Thanks for login');
         } else {
 
             Swal.fire({

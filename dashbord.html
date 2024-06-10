@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+<div class="main">
+   <div class="heading">
+       <h1 id="head"> Welcome to:</h1>
+
+   </div>
+
+</div>
+
+
+<!-- 
+   <h2>Welcome to:
+       <script>document.write(localStorage.getItem('name1'))</script>
+   </h2> -->
+
+    <script>
+
+    let storedName = localStorage.getItem('name1');
+    
+    let head1 = document.getElementById('head');
+    
+    head1.innerHTML = 'Welcome to ' + "</br>" + "</br>" + storedName;
+   </script> 
+</body>
+
+</html>  
